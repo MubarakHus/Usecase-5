@@ -1,5 +1,23 @@
 import streamlit as st
 
+st.markdown(
+    """
+    <style>
+    body {
+        direction: rtl;
+        text-align: right;
+    }
+    .css-1d391kg {
+        text-align: right;
+    }
+    .css-10trblm {
+        direction: rtl;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 # Render the chart in Streamlit using streamlit.components.v1.html
 st.title("وش ينتظرك بعد التخرج؟")
 st.html('''
